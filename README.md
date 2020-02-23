@@ -15,4 +15,4 @@ The Docker image for subconverter +  sub-web
      glovecc/subdockers
 ```
 
-默认将 6222作为 sub 前端端口 6223 作为后端端口 请自行修改 ``API`` 的值 使得其等于 服务器IP ：前端端口 或者 通过 Nginx 等软件 代理后的网址
+默认将 6222作为 sub 前端端口 6223 作为后端端口 请自行修改 ``API`` 的值 使得其等于 服务器IP ：后端端口 或者 通过 Nginx 等软件 代理后的网址
