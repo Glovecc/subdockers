@@ -8,9 +8,10 @@ The Docker image for subconverter +  sub-web
 
 ```shell
     docker run --name=subdockers \
-     -p 6222:80 -p 6223:25500 \
+     -p 6222:80 \
+     -p 6223:25500 \
      --restart=always \
-     -e API="http://192.168.253.140:25500/sub?" \
+     -e API="https://api.wcc.best/sub?" \
      glovecc/subdockers
 ```
 
