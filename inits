@@ -1,0 +1,5 @@
+#!/bin/sh
+
+/app/subconverter &
+
+nginx -g "daemon off;"
